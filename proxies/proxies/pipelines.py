@@ -50,4 +50,3 @@ class ProxiesPipeline(object):
 
     def open_spider(self, spider):
         self.session = Session(bind=self.engine)
-
